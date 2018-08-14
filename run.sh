@@ -27,4 +27,4 @@ fi
 
 echo $PARAMS;
 
-java -jar hsbox-0.17.1-standalone.jar $PARAMS
+java -jar hsbox-$HEADSHOTBOX_VERSION-standalone.jar $PARAMS

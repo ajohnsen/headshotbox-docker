@@ -2,7 +2,7 @@
 
 FROM i386/openjdk:latest
 
-ENV HEADSHOTBOX_VERSION 0.17.2
+ENV HEADSHOTBOX_VERSION 0.17.3
 
 RUN wget https://github.com/bugdone/headshotbox/releases/download/$HEADSHOTBOX_VERSION/headshotbox-$HEADSHOTBOX_VERSION-linux.zip \ 
 && unzip headshotbox-$HEADSHOTBOX_VERSION-linux.zip -d . \
